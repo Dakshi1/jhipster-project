@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "kubernetes",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "directoryPath": "../",
+    "appsFolders": [
+      "ui",
+      "organization",
+      "leave",
+      "meeting",
+      "notification"
+    ],
+    "clusteredDbApps": [],
+    "consoleOptions": [],
+    "serviceDiscoveryType": false,
+    "dockerRepositoryName": "dakshi",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "avengers",
+    "kubernetesServiceType": "Ingress",
+    "ingressDomain": "35.226.223.100.nip.io",
+    "istio": true,
+    "jwtSecretKey": "NTViNzg4NzQwZmYwNzE2ZjExZTFjNWQwODVjN2Q4MGU2NzQ4YjdiMzhiYmIyMjM5OGQyYjE4YzRiNTRkMDNiNGMxN2I5MWQzNTRjOTYwZjdlOTI1YjEzNDA1NmI4OTIyMWM3ZQ=="
+  }
+}

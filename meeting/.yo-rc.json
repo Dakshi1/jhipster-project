@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.myapp.yourapp.meeting",
+    "packageFolder": "com/myapp/yourapp/meeting",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "serviceDiscoveryType": false,
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "meeting",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "buildTool": "maven",
+    "serverPort": "8084",
+    "jhipsterVersion": "6.5.0",
+    "skipUserManagement": true,
+    "clientPackageManager": "npm",
+    "jwtSecretKey": "ZDc4ZDQ0M2IzMmEyYjc2OTUwODg4NmU0ODdjNDNjNTEwNTFmMDdjZTZkNTk3ZGQ1YjQ0YWM3Nzg3YjI0MGEyNmRiY2ZkMmMwMTRiZTU0N2FhYjUwYWRjNmVmYTY3YWQxNjgxNzA4ZWQxMTAwY2UxZjU5YzQ0NTllZmZkMmM3N2Y=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": [
+    "MeetingRoom",
+    "Meeting",
+    "Participant"
+  ]
+}
